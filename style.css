@@ -6,13 +6,17 @@ body {
     margin: 0px;
 }
 .header, .footer {
-    background-color: #0a1b20;
+    background-color: #436bb4;
     color: white;
     display: flex;
-    padding: 20px 200px;
+    padding: 10px 200px;
     align-items: center;
 }
 
+.logo {
+    width: 150px;
+    height: auto;
+}
 .header {
     justify-content: space-between;
     font-size: 30px;
@@ -39,9 +43,10 @@ a {
 
 
 .page-one {
-    background-color: #122f38;
+    background-color: #1d1d1d;
     display: flex;
     flex: 1;
+    gap:20px;
     justify-content: space-between;
     align-items: center;
     padding: 100px 200px;
@@ -71,65 +76,71 @@ div.text {
 }
 
 .sign-up.title {
-    border: none;
+    border: solid;
+    border-color: white;
+    border-width: 2px;
     text-decoration: none;
     border-radius: 5px;
     padding: 8px 20px;
-    background-color: rgb(49, 126, 126);
+    background-color:#436bb4;
     font-weight: bold;
     font-size: 16px;
     color: white;
 }
 
 .planet {
-    width: 400px;
+    width: 600px;
     height: auto;
 }
 
 .placeholder-item {
-    border: 3px #60b7d1;
+    border: 3px #ffffff;
     border-style: solid;
     border-radius: 10px;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
 }
 
 .page-two {
-    background-color: #ffffff;
+    background-color:#436bb4;
     display: flex;
     flex-direction: column;
     flex: 1;
     gap:32px;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px;
+    padding: 50px 200px;
 
 }
 
 .info {
     font-size: 36px;
     font-weight: bolder;
+    color: white;
     }
 
 .item {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:flex-start;
     align-items: center;
     text-align: center;
     gap: 10px;
-    width: 125px;
+    width: 200px;
 }
 
 .items {
     display: flex;
-    gap: 100px;
-    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-bottom: 48px;
 }
 
 .description {
-    color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
 }
 
 .page-three {
@@ -155,16 +166,20 @@ div.text {
 
 .page-four {
     background-color: white;
-
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
 }
 
 .bubble {
     display: flex;
     background-color: #12a3cf;
-    margin: 100px 500px;
-    padding: 25px 75px;
+    min-width: 200px;
+    padding: 25px 50px;
+    gap:20px;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     border-radius: 10px;
 }
 
